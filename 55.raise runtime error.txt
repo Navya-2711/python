@@ -1,0 +1,4 @@
+55. Please raise a RuntimeError exception.
+
+code:
+raise RuntimeError('something wrong')

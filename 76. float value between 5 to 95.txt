@@ -1,0 +1,12 @@
+76. Please generate a random float where the value is between 5 and 95 using python module.
+
+code:
+import random
+rand_num = random.uniform(5,95)
+print(rand_num)
+
+output:
+86.12577701734713
+
+
+

@@ -1,0 +1,28 @@
+9. Write a program that accepts sequence of lines as input and prints the linesafter making all characters in the sentence capitalized.
+Suppose the following input is supplied to the program:
+Hello world
+Practice makes perfect
+Then, the output should be:
+HELLO WORLD
+PRACTICE MAKES PERFECT
+
+code:
+
+lines=[]
+while True:
+    l=input()
+    if l:
+        lines.append(l.upper())
+    else:
+        break
+for l in lines:
+    print(l)
+
+input:
+hello world
+practice makes perfect
+
+output:
+HELLO WORLD
+PRACTICE MAKES PERFECT
+
